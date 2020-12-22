@@ -11,6 +11,7 @@ class UserHeader extends React.Component {
         const { user } = this.props;
 
         if (!user) {
+            console.log('123');
             return null;
         }
 
